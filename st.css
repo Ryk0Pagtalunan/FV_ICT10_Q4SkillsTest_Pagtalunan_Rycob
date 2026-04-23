@@ -1,0 +1,60 @@
+.container1{
+	background-image: linear-gradient(#F6F4E8, #E5EEE4, #C0E1D2);
+	width: 600px;
+    height: 300px;
+	padding: 10px;
+    border-radius: 20px;
+    border-color: #DC9B9B;
+    opacity: 0.5px;
+    position: fixed;
+    top: 25%;
+    bottom: 25%;
+}
+body{
+    background-image: url(https://i.pinimg.com/1200x/35/0b/d3/350bd3c3180f4234998299e34c6f89da.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#Day{
+    background-image: linear-gradient(#C0E1D2, #E5EEE4, #F6F4E8);
+    width: 500px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(34, 136, 46);
+    border-radius: 5px;
+    border-color: rgb(73, 137, 207);
+    border: 5px;
+}
+#Absence{
+    background-image: linear-gradient(#C0E1D2, #E5EEE4, #F6F4E8);
+    width: 500px;
+    height: 32.5px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(34, 136, 46);
+    border-radius: 5px;
+    border-color: rgb(73, 137, 207);
+    border: 5px;
+}
+#submit_button{
+    background-image: linear-gradient(#C0E1D2, #F6F4E8);
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(65, 161, 118);
+    border-radius: 5px;
+    border-color: rgb(73, 137, 207);
+    border: 5px;
+}
+#plot-area{
+    position: fixed;
+    top: 25%;
+    bottom: 25%;
+    left: 52.5%;
+}

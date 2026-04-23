@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <link rel="stylesheet" type="text/css" href="st.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <title>Attendance Tracker</title>
+    <py-config>
+        packages = ["numpy", "matplotlib"]
+    </py-config>
+</head>
+<body>
+
+<div class="container1" style="margin-left: 50px;">
+    <center>
+    <h1 id="title">Attendance Tracker</h1>
+    <label id="labels">Select Day</label><br>
+    <select id="Day" required class="form-control">
+        <option value="1" id="optiontexts">Monday</option>
+        <option value="2" id="optiontexts">Tuesday</option>
+        <option value="3" id="optiontexts">Wednesday</option>
+        <option value="4" id="optiontexts">Thursday</option>
+        <option value="5" id="optiontexts">Friday</option>
+    </select><br><br>
+    <label id="labels">Absences</label><br>
+    <input type="number" id="Absence" placeholder="...?" class="form-control"><br><br><br>
+    <button type="button" id="submit_button" py-click="Chart_show" class="form-control">Submit</button>
+    </center>
+<div id="plot-area"></div>
+<div id="output"></div>
+
+
+<py-script src="main.py"></py-script>
+</body>
+</html>
